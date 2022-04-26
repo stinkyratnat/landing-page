@@ -1,4 +1,85 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+
+.hero, .footer {
+    background: #1F2937;
+    color: #F9FAF8;
+    
+}
+
+.main, .logo {
+    font-weight: extra-bold;
+}
+
+.header {
+    display: flex;
+    flex-direction row;
+    justify-content: space-between;
+    flex: 1;
+    align-items: flex-end;
+}
+
+.header, .welcome {
+    width: 75%;
+    align-self: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header li {
+    margin: 0px 10px;
+    
+}
+
+.welcome {
+    display: flex;
+    flex: 1;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.content {
+
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1;
+}
+
+.info, .quote {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote {
+    background: #E5E7EB;
+    font-weight: light;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    
 }
