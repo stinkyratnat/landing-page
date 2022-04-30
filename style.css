@@ -40,6 +40,7 @@ body {
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .hero ul {
@@ -62,14 +63,50 @@ body {
     margin: 100px 0px;
 }
 
-.content {
+.welcome button {
+    margin-top: 16px;
+}
 
+.welcome h1 {
+    margin: 0px;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.welcome img {
+    margin-left: 50px;
+}
+
+.content {
+    text-align: center;
+    margin: 50px;
+}
+
+.content h1 {
+    font-weight: 900;
+    margin: 0px;
+}
+
+.container .info {
+    font-size: 12px;
+    margin: 0px 24px;
+}
+
+.info .text {
+    margin-top: 8px;
+    color: grey;
+}
+
+.info img {
+    border-radius: 12px;
 }
 
 .container {
     display: flex;
     flex-flow: row nowrap;
-    flex: 1;
+    justify-content: center;
+    gap: 24px;
+    margin: 50px 50%;
 }
 
 .info, .quote {
@@ -103,6 +140,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 50px 15%;
 }
 
 .card {
@@ -110,26 +148,29 @@ body {
     box-sizing: border-box;
     border-radius: 12px;
     color: white;
-    margin: 50px 0px;
-    width: 75%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 25px 50px;
 
+    gap: 50px;
 }
 
 .cardcontent {
     margin: 25px 50px;
-
 }
 
 button {
-    padding: 0px 18px;
+    padding: 5px 24px;
     background-color: #3882f6;
-    border: 2px solid #F9FAF8;
     border-radius: 5px;
     font-weight: bold;
+    border: none;
+}
+
+.card button {
+    border: 2px solid #F9FAF8;
+    flex-shrink: 0;
+    align-self: center;
 }
 
 .footer {
